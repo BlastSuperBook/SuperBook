@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="0b60a9b0-4ac5-496d-9a54-beabef1282f4"
-    Publisher="CN=1227d386-5580-4afa-ae54-b636115a8f6c"
+    Name="45d32ea5-01db-4766-87df-ad8b219eb24d"
+    Publisher="CN=354f77c0-ab32-40dd-a14d-02b99d075256"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>SuperBook.UWP</DisplayName>
-    <PublisherDisplayName>1227d386-5580-4afa-ae54-b636115a8f6c</PublisherDisplayName>
+    <PublisherDisplayName>354f77c0-ab32-40dd-a14d-02b99d075256</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

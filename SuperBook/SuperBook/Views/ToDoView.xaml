@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuperBook.Views.ToDoView"
+             xmlns:utility="clr-namespace:SuperBook.Utility;assembly=SuperBook"
+             utility:ViewModelLocator.AutoWireViewModel="True">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <SearchBar Placeholder="Search" />
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="EndAndExpand">
+                <Label Text="Hide Completed Task" />
+                <Switch IsToggled="True" />
+            </StackLayout>
+            <ListView ItemsSource="{Binding ToDoList}"
+                      IsPullToRefreshEnabled="True"
+                      HasUnevenRows="True"
+                      SeparatorVisibility="None"
+                      BackgroundColor="#C0C0C0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Padding="10, 5"
+                                   Margin="10, 5"
+                                   HasShadow="True"
+                                   HeightRequest="50"
+                                   BorderColor="Black"
+                                   CornerRadius="5">
+                                <StackLayout Orientation="Horizontal"
+                                             HorizontalOptions="FillAndExpand">
+                                    <Label Text="{Binding Title}" 
+                                           VerticalTextAlignment="Center"
+                                           HorizontalOptions="StartAndExpand" />
+                                    <Image Source="https://cdn2.iconfinder.com/data/icons/navigation-set-arrows-part-two/32/Check-512.png" 
+                                           WidthRequest="50"
+                                           HeightRequest="50"
+                                           HorizontalOptions="End"
+                                           IsVisible="{Binding IsCompleted} "/>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SuperBook.Container;
+using SuperBook.Contracts.Services.General;
+using SuperBook.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,10 +12,18 @@ namespace SuperBook
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            this.InitializeApp();
+            this.InitializeNavigation();
         }
-
+        private void InitializeApp()
+        {
+            AppContainer.RegisterDependencies();
+        }
+        private void InitializeNavigation()
+        {
+            var navigationService = AppContainer.Resolve<INavigationService>();
+            navigationService.InitializeAsync();
+        }
         protected override void OnStart()
         {
             // Handle when your app starts

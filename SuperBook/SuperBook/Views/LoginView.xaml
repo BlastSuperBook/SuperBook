@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuperBook.Views.LoginView"
+             xmlns:utility="clr-namespace:SuperBook.Utility;assembly=SuperBook"
+             utility:ViewModelLocator.AutoWireViewModel="True">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#BD081C">
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Image HorizontalOptions="CenterAndExpand" 
+                       VerticalOptions="CenterAndExpand"
+                       Source="logo.png" />
+            </StackLayout>
+            <Frame BackgroundColor="#DB4437"
+                   HasShadow="False"
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand">
+                <StackLayout Spacing="10"
+                             VerticalOptions="Center">
+                    <Entry Text="{Binding Username, Mode=TwoWay}" 
+                           Placeholder="Enter username" 
+                           Style="{StaticResource LoginEntry}" />
+                    <Entry Text="{Binding Password, Mode=TwoWay}" 
+                           Placeholder="Enter password"
+                           IsPassword="True" 
+                           Style="{StaticResource LoginEntry}" />
+                </StackLayout>
+            </Frame>
+            <StackLayout VerticalOptions="FillAndExpand">
+                <Button Text="Login"
+                        FontSize="Default"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        Command="{Binding LoginCommand}" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
