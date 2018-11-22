@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Todo.ToDoView" 
+             Title="Todo">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnItemAdded">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="Android, UWP" Value="https://image.ibb.co/f0vRkL/baseline-add-circle-outline-black-48dp.png"  />
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <SearchBar Placeholder="Search"
+                   x:Name="searchBar"
+                   TextChanged="Handle_TextChanged"/>
+        <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="EndAndExpand">
+            <Label Text="Hide Completed Task"/>
+            <Switch  Toggled="OnToggle" x:Name="doneToggle"/>
+        </StackLayout>
+        <ListView x:Name="listView" 
+              Margin="20" 
+              ItemSelected="OnListItemSelected"
+              IsPullToRefreshEnabled="true"
+              Refreshing="Handle_Refreshing">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="20,0,0,0" 
+                                 Orientation="Horizontal" 
+                                 HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Title}" 
+                               VerticalTextAlignment="Center" 
+                               HorizontalOptions="StartAndExpand" />
+                            <Image WidthRequest="50"
+                                   HeightRequest="50"
+                                   HorizontalOptions="End" 
+                                   IsVisible="{Binding Completed}" 
+                                   Source="https://cdn2.iconfinder.com/data/icons/navigation-set-arrows-part-two/32/Check-512.png"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+    

@@ -1,0 +1,42 @@
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.deps.json
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.dll
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.pdb
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.AssemblyInfoInputs.cache
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.AssemblyInfo.cs
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.dll
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.pdb
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.csprojAssemblyReference.cache
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\Views\AddTaskView.xaml.g.cs
+C:\Users\jgarcia\source\repos\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\Views\ToDoView.xaml.g.cs
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.csprojAssemblyReference.cache
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\Views\AddTaskView.xaml.g.cs
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\Views\ToDoView.xaml.g.cs
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.csproj.CoreCompileInputs.cache
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.AssemblyInfoInputs.cache
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.AssemblyInfo.cs
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.dll
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.pdb
+F:\SuperBook\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.deps.json
+F:\SuperBook\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.dll
+F:\SuperBook\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.pdb
+F:\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.deps.json
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.dll
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\bin\Debug\netstandard2.0\SuperBook.pdb
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.csprojAssemblyReference.cache
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\Views\AddTaskView.xaml.g.cs
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\Views\ToDoView.xaml.g.cs
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.csproj.CoreCompileInputs.cache
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.AssemblyInfoInputs.cache
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.AssemblyInfo.cs
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.dll
+C:\Users\jgarcia\Desktop\Backup Superbook\SuperBook\SuperBook\SuperBook\SuperBook\obj\Debug\netstandard2.0\SuperBook.pdb

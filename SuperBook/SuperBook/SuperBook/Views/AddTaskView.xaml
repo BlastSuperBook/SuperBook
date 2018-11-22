@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Todo.AddTaskView" 
+             Title="Add Task">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="saveButton"
+                     Text="Save" 
+                     Clicked="OnSaveClicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="20" 
+                 VerticalOptions="StartAndExpand">
+        <Label Text="Title" />
+        <Entry Text="{Binding Title}" x:Name="title"/>
+        <Label Text="Completed" />
+        <Switch IsToggled="{Binding Completed}" />
+    </StackLayout>
+</ContentPage>
